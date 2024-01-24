@@ -1,0 +1,4 @@
+  public function branch($newBranch) {
+        $this->branches[$newBranch] = $this->branches[$this->currentBranch];
+        echo "Created branch: $newBranch\n";
+    }
